@@ -1,0 +1,49 @@
+.object-node-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.object-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-property-container {
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.node-type-container {
+    margin-left: -80px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.select-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 3px;
+    margin: 5px;
+    border: 0.25px solid black;
+    background-color: rgb(216, 218, 219);
+}
+
+.select-item:hover {
+    cursor: pointer;
+}

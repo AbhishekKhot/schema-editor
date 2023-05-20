@@ -1,0 +1,50 @@
+.string-node-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.string-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-validations-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -100px;
+}
+
+.validations-type-container {
+    margin-left: -50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.validation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.remove-validation {
+    font-size: 12px;
+    color: rgb(221, 216, 216);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.remove-validation:hover {
+    cursor: pointer;
+    color: rgb(221, 216, 216);
+    background-color: rgb(239, 241, 241);
+}
